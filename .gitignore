@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+admin-react/node_modules/
+
+# Build outputs
+admin-react/dist/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads (if you don't want to track uploaded files)
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.cache/
